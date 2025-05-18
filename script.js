@@ -10,8 +10,8 @@ const carouselItems = [
     linkURL: "https://github.com/yourrepo1"
   },
   {
-    title: "Web App project",
-    description: "A JavaScript-based single-page app",
+      title: "Course: CS10A-C",
+    description: "UCR's intro to programming course series, consisting of understanding essential programming concepts. Topics such as pointers, memory allocation, Object-Oriented programming, and abstract data structures.",
     imageURL: "images/project2.jpg",
     linkURL: "https://github.com/yourrepo2"
   },
