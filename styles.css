@@ -99,6 +99,13 @@ display:flex;
 .left-btn{
 
 }
+
+.section-titles{
+    color: #000;
+    background-color: #04b491
+
+}
+
 .education-section{
     display:flex;
     flex-direction: column;
@@ -117,11 +124,27 @@ display:flex;
 }
 
 .experience-section{
-
-
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content:flex-start;
+}
+.experience-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 1.5rem;
+    padding: 5px;
 }
 
-.experience-item{
 
+.experience-item a{
+    color: #04b491;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.misc-title{
+    margin-bottom:1px;
 }
 
