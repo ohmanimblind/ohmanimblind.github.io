@@ -1,6 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 1rem;
+}
+
+@media (max-width: 768px){
+	.container{
+		padding: 05.rem;
+	}
+}
+
+@media(max-width: 480px){
+	.container{
+		padding: 0.25rem;
+		font-size:90%;
+	}
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -16,6 +36,12 @@ body{
     font-family: 'Roboto', sans-serrif;
     background: rgba(0,0,0,0.92);  /* fallback for old browsers */
  
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
 }
 
 .page-top{
