@@ -7,7 +7,7 @@ const carouselItems = [
     title: "Embedded Systems project",
     description: "Project for embedded systems class",
     imageURL: "images/project1.jpg",
-    linkURL: "https://github.com/yourrepo1"
+    linkURL: "https://github.com/ohmanimblind/Tamagotchi",
   },
   {
       title: "Course: CS10A-C",
