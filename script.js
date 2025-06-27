@@ -25,14 +25,20 @@ const carouselItems = [
   {
  	title: "Course: MATH 131, 132",
 	description: "The Linear Alebra Series. The orginal reason why I pursued a math minor, 131 focused on fundamental concepts such as Fields, Vector Spaces, Mappings, etc. 132 revolved around Eigentheory, Inner-Product theory, and Spectral Theory.",
-  	imageURL: "N/A",
-	linkURL: "N/A",
+	  //imageURL: "N/A",
+	//linkURL: "N/A",
   },
   {
 	title: "Course: CS147",
 	description: "GPU Programming was a fantastic, practical course that I enjoyed taking. Four projects focusing on key GPU concepts, and a final project of our choosing. Using my knowledge from Fourier Analysis, my final project was Audio Preproccesing for Classification models",
 	imageURL: "N/A",
   	linkURL: "https://github.com/ohmanimblind/CS147-FinalProject", 
+  },
+  {
+	title: "Course: MATH161",
+	description: "A course focused on deriving/explaining key concepts in Machine Learning. Topics included Linear Regression, SVM's, Derivation of loss functions, Gradient Descent Optimization, Gaussian Models, Decision Tree's/Forests, and Neural Networks. Assignments were biweekly reports.",
+  	imageURL: "N/A",
+	linkURL: "https://github.com/ohmanimblind/MATH161",
   },
 ];
 
