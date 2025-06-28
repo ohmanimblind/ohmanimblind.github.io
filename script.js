@@ -4,17 +4,12 @@
 // 1. Your carousel data
 const carouselItems = [
   {
-    title: "Embedded Systems project",
-    description: "Project for embedded systems class",
+	  title: "Course: CS120B ",
+    description: "Embedded Systems was on of my favourite courses, as I feel it is a true assessmenet of many essential skills, from system design, to understanding of fundamental concepts. My final projec was a lifelong goal, making a custom Tamagotchi",
     imageURL: "images/project1.jpg",
     linkURL: "https://github.com/ohmanimblind/Tamagotchi",
   },
-  {
-      title: "Course: CS10A-C",
-    description: "UCR's intro to programming course series, consisting of understanding essential programming concepts. Topics such as pointers, memory allocation, Object-Oriented programming, and abstract data structures.",
-    imageURL: "images/project2.jpg",
-    linkURL: "https://github.com/yourrepo2"
-  },
+  
   // Add more projects here...
   {
      title: "Course: MATH 147",
@@ -40,6 +35,18 @@ const carouselItems = [
   	imageURL: "N/A",
 	linkURL: "https://github.com/ohmanimblind/MATH161",
   },
+  {
+	title: "Course: CS152",
+	description: "Compiler design was on of my final classes for my undergraduate degree. Coming full circle, the final project was a compiler for the Teh-Tarik programming language, with implementation of Lexical Analysis, Syntax Analysis, Semantic Checking, and Intermediate Code Generation",
+	linkURL: "https://youtu.be/jEadMTc1X4A",
+
+  },
+  {
+	title: "Course: CS170",
+	description: "Intro to artificial intelligence was a nice refresher class for important ideas, such as search, the importance of heauristics, gradient descent, etc. A nice project for this class was the solving of an 8-bit tile puzzle, through A*. ",
+	linkURL: "https://youtu.be/afH6-0DU2Tk",  
+
+  },
 ];
 
 // 2. Reusable init function
@@ -49,7 +56,7 @@ function initCarousel(items) {
   // Get elements from the DOM
   const titleEl = document.querySelector('.card .title');
   const descEl = document.querySelector('.card .description');
-  const imgEl = document.querySelector('.card .image');
+  /*const imgEl = document.querySelector('.card .image');*/
   const linkEl = document.querySelector('.card .link');
   const leftBtn = document.getElementById('left-btn');
   const rightBtn = document.getElementById('right-btn');
@@ -59,7 +66,7 @@ function initCarousel(items) {
     const item = items[index];
     titleEl.textContent = item.title;
     descEl.textContent = item.description;
-    imgEl.src = item.imageURL;
+    /*imgEl.src = item.imageURL;*/
     linkEl.href = item.linkURL;
     linkEl.textContent = "View Project";
   }
