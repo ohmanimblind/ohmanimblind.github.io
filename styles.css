@@ -167,7 +167,7 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Space between buttons and card */
+  gap: 8px; /* Space between buttons and card */
   flex-wrap: wrap;
   min-width: 250px;
   max-width: 400px;
