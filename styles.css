@@ -170,7 +170,7 @@ img{
   gap: 8px; /* Space between buttons and card */
   flex-wrap: wrap;
   min-width: 250px;
-  max-width: 400px;
+  max-width: 450px;
   margin: auto;
   padding: 20px;
   flex: 1 1 300px
