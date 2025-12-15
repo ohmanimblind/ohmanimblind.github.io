@@ -47,6 +47,13 @@ const carouselItems = [
 	linkURL: "https://youtu.be/afH6-0DU2Tk",  
 
   },
+
+  {
+	title: "Course: CS258:",
+	description: "Graduate Reinforcment Learning course at UCR. The course consisted of 4 projects, 3 assigned and one open ended. My final project was based on Traffic Signal Control with Proximal Policy Optimization.",
+	linkURL: "https://drive.google.com/file/d/1bE1jhHBkpEMrBFGr7VFL7f4lSrySqQhi/view?usp=sharing",
+
+  },
 ];
 
 // 2. Reusable init function
